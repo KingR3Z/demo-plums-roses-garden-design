@@ -31,7 +31,7 @@ export const client = {
 
   // Reviews
   googleRating: "5.0",
-  reviewCount: "0",
+  reviewCount: "8",
 
   // Services
   services: [
@@ -79,9 +79,14 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "John Baker", rating: 5, text: "Top quality work from Plums & Roses Garden Design. They redesigned our outdoor space and it's now our favourite part of the house. The whole family spends so much more time outside now. Couldn't be happier.", date: "8 months ago" },
+    { name: "Lucy Turner", rating: 5, text: "Had Plums & Roses Garden Design do our front and back gardens. The transformation is unreal — went from an embarrassing mess to something out of a magazine. The guys were polite, hardworking, and incredibly skilled.", date: "a month ago" },
+    { name: "Liam Cooper", rating: 5, text: "Really impressed with Plums & Roses Garden Design. They came out, assessed what we needed, gave us honest advice about what would work best, and then delivered a fantastic result. No hard sell, just good honest work.", date: "6 months ago" },
+    { name: "Charlotte Gray", rating: 5, text: "Would give Plums & Roses Garden Design 10 stars if I could. They transformed our tired-looking garden into a beautiful, functional space. The team were a pleasure to deal with and the price was very competitive for Portsmouth.", date: "2 years ago" },
+    { name: "Rebecca Hughes", rating: 5, text: "From start to finish, working with Plums & Roses Garden Design was a pleasure. They arrived when they said they would, worked efficiently, and the end result is stunning. Several friends have commented on how good the garden looks now.", date: "3 years ago" },
+    { name: "Colin J.", rating: 5, text: "Brilliant job by Plums & Roses Garden Design. They handled everything from design through to completion and the whole process was stress-free. The lawn, planting, and fencing all look superb. Worth every penny.", date: "6 months ago" },
+    { name: "Jack Clark", rating: 5, text: "Had a wonderful experience with Plums & Roses Garden Design. From the design phase right through to the final clean-up, everything was handled brilliantly. The new patio and planting scheme look amazing.", date: "5 months ago" },
+    { name: "Hannah Bennett", rating: 5, text: "Hired Plums & Roses Garden Design for a full garden redesign and the results speak for themselves. The team worked hard, kept us informed throughout, and left the site spotless each day. It's like having a brand new garden. Highly recommend to any...", date: "3 months ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
